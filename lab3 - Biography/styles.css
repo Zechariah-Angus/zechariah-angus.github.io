@@ -15,6 +15,7 @@ html {
 
 body {
   font: 1.2em / 1.5 system-ui;
+  /* Padding is the border of the body and the Width is the width of the body*/
   padding: 20px;
   width: 500px;
 }
