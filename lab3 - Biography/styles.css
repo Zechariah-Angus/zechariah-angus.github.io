@@ -18,4 +18,5 @@ body {
   /* Padding is the border of the body and the Width is the width of the body*/
   padding: 20px;
   width: 500px;
+  background: #efefef;
 }
