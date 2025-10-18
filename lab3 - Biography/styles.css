@@ -44,7 +44,7 @@ h1 .design-jane{
 }
 
 /* Styling the Second Header */
-h1 .design-contact{
+h2 .design-contact{
     color: darkslategray;
     border-style: dotted;
     border-color: purple;
