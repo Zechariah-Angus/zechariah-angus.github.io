@@ -1,5 +1,13 @@
 /* General setup */
 
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+
+
+html {
+  font-family: "Barlow";
+  font-style: normal;
+}
+
 * {
   box-sizing: border-box;
 }
