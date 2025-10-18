@@ -58,3 +58,7 @@ a:hover {
     color: darkblue;
     text-decoration: none;
 }
+
+a:visited {
+  color: red;
+}
