@@ -51,3 +51,14 @@ h1 .design-contact{
     font-size: 1.5rem;
     font-style: italic;
 }
+
+/* Styling the links */
+
+
+a:link {
+    color: green;
+}
+
+a:hover {
+    color: darkgreen;
+}
