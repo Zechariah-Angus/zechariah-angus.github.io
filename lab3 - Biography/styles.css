@@ -52,6 +52,11 @@ h1 .design-contact{
     font-style: italic;
 }
 
+.job-title{
+    color: darkslategray;
+    font-size: 1.5rem;
+}
+
 /* Styling the links */
 
 
