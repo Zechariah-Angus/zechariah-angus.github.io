@@ -61,4 +61,5 @@ a:link {
 
 a:hover {
     color: darkgreen;
+    text-decoration: none;
 }
