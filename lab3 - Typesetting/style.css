@@ -1,16 +1,12 @@
 /* General setup */
 
-@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,700;1,400&display=swap");
 
 html {
-  font-family: "Barlow";
-  font-style: normal;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
 }
 
-* {
-  box-sizing: border-box;
-}
 
 body {
   margin: 0 auto;
