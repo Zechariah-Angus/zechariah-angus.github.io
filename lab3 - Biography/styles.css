@@ -28,5 +28,6 @@ body {
 ul .special{
     background-color: white;
     padding: 30px;
+    border-color: purple;
     border-radius: 20px;
 }
