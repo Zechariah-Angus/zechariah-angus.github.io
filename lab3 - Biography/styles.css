@@ -7,7 +7,7 @@ Description: This document is for styling the webpage.
 
 
 
-
+/* Box Styles */
 
 html {
   background-color: white;
@@ -30,4 +30,24 @@ ul .special{
     padding: 30px;
     border-color: purple;
     border-radius: 20px;
+}
+
+
+/* Text Styles */
+
+/* Styling the First Header */
+h1 .design-jane{
+    color: darkslategray;
+    border-style: dotted;
+    border-color: purple;
+    font-size: 2rem;
+}
+
+/* Styling the Second Header */
+h1 .design-contact{
+    color: darkslategray;
+    border-style: dotted;
+    border-color: purple;
+    font-size: 1.5rem;
+    font-style: italic;
 }
