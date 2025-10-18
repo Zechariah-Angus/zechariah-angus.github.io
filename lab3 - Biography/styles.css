@@ -46,8 +46,6 @@ h1 .design-jane{
 /* Styling the Second Header */
 h2 .design-contact{
     color: darkslategray;
-    border-style: dotted;
-    border-color: purple;
     font-size: 1.5rem;
     font-style: italic;
 }
