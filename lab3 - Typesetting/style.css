@@ -13,6 +13,7 @@ body {
   padding: 0 20px;
   min-width: 980px;
   max-width: 1400px;
+  line-height: 1.5;
 }
 
 /* Layout */
