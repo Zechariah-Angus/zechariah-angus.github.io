@@ -13,6 +13,7 @@ html {
   background-color: white;
 }
 
+/* Styling body */
 body {
   font: 1.2em / 1.5 system-ui;
   /* Padding is the border of the body and the Width is the width of the body*/
@@ -25,6 +26,8 @@ body {
   margin-right: auto;
 }
 
+
+/* Styling list */
 ul {
     background-color: white;
     padding: 30px;
@@ -57,11 +60,12 @@ h2 {
 
 /* Styling the links */
 
-
+/* Link colour. */
 a:link {
     color: green;
 }
 
+/* Link colour when hovering over link. */
 a:hover {
     color: darkgreen;
     text-decoration: none;
