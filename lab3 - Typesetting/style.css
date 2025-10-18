@@ -26,6 +26,10 @@ main {
   padding: 20px 0;
 }
 
+p {
+  text-indent: 2rem;
+}
+
 /* header and footer */
 
 header {
@@ -42,4 +46,15 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+/* Link colour. */
+a:link {
+    color: royalblue;
+}
+
+/* Link colour when hovering over link. */
+a:hover {
+    color: darkblue;
+    text-decoration: none;
 }
