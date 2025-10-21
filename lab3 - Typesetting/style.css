@@ -45,6 +45,15 @@ header {
   border-bottom: 5px solid #aa6666;
 }
 
+/* Setting headers font and size */
+
+h1, h2 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700; 
+  font-size: 22px; 
+}
+
+
 footer {
   border-top: 5px solid #aa6666;
 }
