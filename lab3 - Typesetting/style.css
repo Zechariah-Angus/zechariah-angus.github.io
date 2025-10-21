@@ -68,6 +68,8 @@ p {
 
 footer {
   border-top: 5px solid #aa6666;
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
 }
 
 footer p {
