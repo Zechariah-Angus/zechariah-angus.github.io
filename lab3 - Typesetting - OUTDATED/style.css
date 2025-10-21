@@ -1,0 +1,64 @@
+/* General setup */
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,700;1,400&display=swap");
+
+html {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+}
+
+
+body {
+  margin: 0 auto;
+  padding: 0 20px;
+  min-width: 980px;
+  max-width: 1400px;
+  line-height: 1.5;
+  letter-spacing: 1.2px;
+}
+
+/* Layout */
+
+main {
+  display: grid;
+  grid-template-columns: 5fr 2fr 2fr;
+  gap: 40px;
+  padding: 20px 0;
+}
+
+p {
+  text-indent: 2rem;
+}
+
+/* header and footer */
+
+header {
+  border-bottom: 5px solid #aa6666;
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+}
+
+footer {
+  border-top: 5px solid #aa6666;
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+}
+
+footer p {
+  text-align: center;
+}
+
+/* Link colour. */
+a:link {
+    color: royalblue;
+}
+
+/* Link colour when hovering over link. */
+a:hover {
+    color: darkblue;
+    text-decoration: none;
+}
+
+a:visited {
+  color: red;
+}
