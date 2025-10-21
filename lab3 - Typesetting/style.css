@@ -10,6 +10,14 @@ Description: The Cascading Style Sheet for a college webpage using typeset.
 
 @import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,700;1,400&display=swap");
 
+/* Font set for entire set to keep the site uniform and consistant */ 
+
+html {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+}
+
+
 * {
   box-sizing: border-box;
 }
