@@ -67,3 +67,12 @@ footer {
 footer p {
   text-align: center;
 }
+
+a:focus {
+  outline: none;
+  background-image: url(images/external-link-52.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 8px;
+  padding: 10px;
+}
