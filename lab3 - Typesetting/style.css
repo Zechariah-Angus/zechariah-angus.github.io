@@ -10,6 +10,15 @@ Description: The Cascading Style Sheet for a college webpage using typeset.
 
 /* General setup */
 
+/* Font set for entire set to keep the site uniform and consistant */ 
+
+html {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
 * {
   box-sizing: border-box;
 }
