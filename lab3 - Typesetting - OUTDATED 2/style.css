@@ -1,0 +1,71 @@
+
+/*
+Name: Zechariah McDougall
+File: style.css
+Date: 20 October 2025
+Description: The Cascading Style Sheet for a college webpage using typeset. 
+*/
+
+/* General setup */
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,700;1,400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+/* Font set for entire set to keep the site uniform and consistant */ 
+
+html {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0 20px;
+  min-width: 980px;
+  max-width: 1400px;
+  
+}
+
+/* Layout */
+
+main {
+  display: grid;
+  grid-template-columns: 5fr 2fr 2fr;
+  gap: 40px;
+  padding: 20px 0;
+}
+
+/* header and footer */
+
+header {
+  border-bottom: 5px solid #aa6666;
+}
+
+/* Setting headers font and size */
+
+h1, h2 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700; 
+  font-size: 22px; 
+}
+
+/* Changing title font size */
+
+h1 {
+  font-size: 30px;
+}
+
+footer {
+  border-top: 5px solid #aa6666;
+}
+
+footer p {
+  text-align: center;
+}
