@@ -76,6 +76,8 @@ footer p {
   text-align: center;
 }
 
+/* Styling Links */
+
 a:focus {
   outline: none;
   background-image: url(images/external-link-52.png);
@@ -83,4 +85,19 @@ a:focus {
   background-position: right top;
   background-size: 8px;
   padding: 10px;
+}
+
+
+/* Link colour. */
+a:link {
+    color: royalblue;
+}
+
+a:hover {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+a:visited {
+  color: darkmagenta;
 }
