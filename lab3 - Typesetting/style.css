@@ -60,6 +60,10 @@ h1 {
   font-size: 30px;
 }
 
+p {
+  text-indent: 2rem;
+}
+
 
 footer {
   border-top: 5px solid #aa6666;
