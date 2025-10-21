@@ -18,6 +18,7 @@ html {
   font-size: 18px;
   line-height: 1.5;
   letter-spacing: 1.2px;
+  background-color: #fcc14cca;
 }
 
 * {
@@ -38,6 +39,7 @@ main {
   grid-template-columns: 5fr 2fr 2fr;
   gap: 40px;
   padding: 20px 0;
+  
 }
 
 /* header and footer */
@@ -84,7 +86,7 @@ a:focus {
   background-repeat: no-repeat;
   background-position: right top;
   background-size: 8px;
-  padding: 10px;
+  padding: 3.5px;
 }
 
 
@@ -100,4 +102,61 @@ a:hover {
 
 a:visited {
   color: darkmagenta;
+}
+
+
+/* - List Styling - */
+
+ul,
+ol {
+  margin: 1rem 0;
+}
+
+/* Unordered lists setting bullets to be square */
+ul {
+  list-style-type: square;
+}
+
+/* Setting the ordered list to have the same size as the headers. */
+ol {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+}
+
+/* - List Navigation Styling - */
+
+nav ul {
+  padding-left: 0;
+}
+
+nav li {
+  list-style-type: none;
+  margin-bottom: 1rem;
+}
+
+/* Styling the lists and adding a border */
+nav li a {
+  font-family: "Barlow", sans-serif;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  line-height: 3.5;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1.2px;
+  font-size: 22px;
+  font-weight: bold;
+  border: 2px solid #ec786f;
+}
+
+/* Changes the color of our new "buttons" */
+nav li a:focus, nav li a:hover {
+  color: blueviolet;
+  background: #efb666;
+}
+
+/* Changes the color of our new "buttons" when active or "clicked"*/
+nav li a:active {
+  color: lightpink;
+  background: #ec786f;
 }
