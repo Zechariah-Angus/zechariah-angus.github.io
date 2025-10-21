@@ -16,6 +16,7 @@ Description: The Cascading Style Sheet for a college webpage using typeset.
 html {
   font-family: 'Barlow Condensed', sans-serif;
   font-weight: 400;
+  font-size: 16px;
 }
 
 
@@ -43,11 +44,13 @@ main {
 
 header {
   border-bottom: 5px solid #aa6666;
+  font-size: 20px;
 }
 
 h1, h2 {
   font-family: "Barlow", sans-serif;
-  font-weight: 700;  
+  font-weight: 700; 
+  font-size: 18px; 
 }
 
 footer {
