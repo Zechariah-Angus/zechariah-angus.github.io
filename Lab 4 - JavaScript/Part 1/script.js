@@ -34,17 +34,15 @@ const events = [
 function returnRandomStoryString() {
 
     // Adding in the three constants
-    const randomCharacter = characters.randomValueFromArray(characters);
-    const randomPlaces = places.randomValueFromArray(places);
-    const randomEvents = events.randomValueFromArray(events);
+    // Got TypeError: characters.randomValueFromArray is not a funtion because I was treating the raw text strings as objects: characters.randomValueFromArray(characters) to randomValueFromArray(characters)
+    const randomCharacter = randomValueFromArray(characters);
+    const randomPlaces = randomValueFromArray(places);
+    const randomEvents = randomValueFromArray(events);
    
-    const storyText = 
+    // Have to use concatenation to get the text to work properly, originally I just used "" + "" which doesn't work when embedding into text.
+    let storyText = 
 
-   "It was 94 Fahrenheit outside, so " 
-   + randomCharacter + " went for a walk. When they got to "
-   + randomPlaces + ", they stared in horror for a few moments, then "
-   + randomEvents + ". Bob saw the whole thing, but was not surprised — "
-   + randomCharacter + " weighs 300 pounds, and it was a hot day."
+   `It was 94 Fahrenheit outside, so ${randomCharacter} went for a walk. When they got to ${randomPlaces}, they stared in horror for a few moments, then ${randomEvents}. Bob saw the whole thing, but was not surprised — ${randomCharacter} weighs 300 pounds, and it was a hot day.`
 
   return storyText;
 }
@@ -56,7 +54,7 @@ generateBtn.addEventListener("click", generateStory);
 function generateStory() {
 
     // Needed so it can create new random story, can't be equal to storyText will only generate once.
-    const newStory = returnRandomStoryString();
+    let newStory = returnRandomStoryString();
 
     if (customName.value !== "") {
         const name = customName.value;
