@@ -54,16 +54,20 @@ function returnRandomStoryString() {
 generateBtn.addEventListener("click", generateStory);
 
 function generateStory() {
-  if (customName.value !== "") {
-    const name = customName.value;
-  }
 
-  if (document.getElementById("uk").checked) {
-    const weight = Math.round(300);
-    const temperature = Math.round(94);
-  }
+    // Needed so it can create new random story, can't be equal to storyText will only generate once.
+    const newStory = returnRandomStoryString();
 
-  // TODO: replace "" with the correct expression
-  story.textContent = "";
-  story.style.visibility = "visible";
+    if (customName.value !== "") {
+        const name = customName.value;
+    }
+
+    if (document.getElementById("uk").checked) {
+        const weight = Math.round(300/14) + " stones";
+        const temperature = Math.round((94-32)*1.8) + " Celsius";
+    }
+
+    // TODO: replace "" with the correct expression
+    story.textContent = "";
+    story.style.visibility = "visible";
 }
