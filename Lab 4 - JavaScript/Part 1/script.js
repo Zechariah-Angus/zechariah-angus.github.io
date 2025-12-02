@@ -14,19 +14,20 @@ function randomValueFromArray(array) {
 const characters = [
     "Willy the Goblin",
     "Big Daddy",
-    "Father Christmas"] 
+    "Father Christmas"
+];
 
 const places = [
     "the soup kitchen",
     "Disneyland",
     "the White House"
-]
+];
 
 const events = [
     "spontaneously combusted",
     "melted into a puddle on the sidewalk",
     "turned into a slug and slithered away"
-] 
+];
 
 
 // Partial return random string function
@@ -40,9 +41,10 @@ function returnRandomStoryString() {
     const randomEvents = randomValueFromArray(events);
    
     // Have to use concatenation to get the text to work properly, originally I just used "" + "" which doesn't work when embedding into text.
+    // Was originally a constant but I had to convert it to a variable so that it can be changed/updated.
     let storyText = 
 
-   `It was 94 Fahrenheit outside, so ${randomCharacter} went for a walk. When they got to ${randomPlaces}, they stared in horror for a few moments, then ${randomEvents}. Bob saw the whole thing, but was not surprised — ${randomCharacter} weighs 300 pounds, and it was a hot day.`
+   `It was 94 Fahrenheit outside, so ${randomCharacter} went for a walk. When they got to ${randomPlaces}, they stared in horror for a few moments, then ${randomEvents}. Bob saw the whole thing, but was not surprised — ${randomCharacter} weighs 300 pounds, and it was a hot day.`;
 
   return storyText;
 }
@@ -58,13 +60,14 @@ function generateStory() {
 
     if (customName.value !== "") {
         const name = customName.value;
+        newStory = newStory.replace("Bob", name);
     }
 
     if (document.getElementById("uk").checked) {
         const weight = Math.round(300/14) + " stones";
         const temperature = Math.round((94-32)*1.8) + " Celsius";
         newStory = newStory.replace("300 pounds", weight);
-        newStory = newStory.replace("94 Fahrenheit", temperature)
+        newStory = newStory.replace("94 Fahrenheit", temperature);
     }
 
     // TODO: replace "" with the correct expression
