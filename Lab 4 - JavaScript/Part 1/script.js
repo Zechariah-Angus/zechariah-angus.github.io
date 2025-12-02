@@ -32,6 +32,11 @@ const events = [
 // Partial return random string function
 
 function returnRandomStoryString() {
+
+    // Adding in the three constants
+    const randomCharacter = characters.randomValueFromArray(array);
+    const randomPlaces = places.randomValueFromArray(array);
+    const randomEvents = events.randomValueFromArray(array);
    
     const storyText = 
 
