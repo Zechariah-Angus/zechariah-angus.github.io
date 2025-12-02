@@ -34,9 +34,9 @@ const events = [
 function returnRandomStoryString() {
 
     // Adding in the three constants
-    const randomCharacter = characters.randomValueFromArray(array);
-    const randomPlaces = places.randomValueFromArray(array);
-    const randomEvents = events.randomValueFromArray(array);
+    const randomCharacter = characters.randomValueFromArray(characters);
+    const randomPlaces = places.randomValueFromArray(places);
+    const randomEvents = events.randomValueFromArray(events);
    
     const storyText = 
 
